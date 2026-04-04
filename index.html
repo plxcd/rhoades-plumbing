@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rhoades Plumbing & Auto</title>
+
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script defer src="scripts/script.js"></script>
+</head>
+
+<body>
+
+  <div class="top-banner">
+    24/7 Plumbing • Auto Repair • Roadside Assistance
+  </div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Rhoades</div>
+
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="mobile-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-text">
+        <h1>Reliable Plumbing & Auto Repair Services</h1>
+        <p>Professional, affordable, and available when you need us most.</p>
+        <a href="#services" class="btn-primary">View Services</a>
+      </div>
+
+      <div class="hero-images">
+        <img src="images/mechanic-hero.jpg" alt="Mechanic working" />
+        <img src="images/plumbing.jpg" alt="Plumber fixing pipe" />
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+
+      <div class="service-grid">
+
+        <div class="service-card">
+          <img src="images/auto-repair.jpg" alt="Auto repair" />
+          <h3>Auto Repair</h3>
+          <p>Engine diagnostics, brakes, tune-ups, and full-service repairs.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/roadside.jpg" alt="Roadside assistance" />
+          <h3>Roadside Assistance</h3>
+          <p>24/7 towing, jump-starts, lockouts, and emergency support.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/plumbing.jpg" alt="Plumbing services" />
+          <h3>Plumbing Services</h3>
+          <p>Leak repair, drain cleaning, water heaters, and more.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-grid">
+
+      <div>
+        <h2 class="section-title">Request Service</h2>
+        <p>Tell us what you need and we’ll respond quickly.</p>
+      </div>
+
+      <form class="contact-form">
+        <label>Full Name
+          <input type="text" placeholder="Your name" />
+        </label>
+
+        <label>ZIP Code
+          <input type="text" placeholder="e.g. 23510" />
+        </label>
+
+        <label>Service Needed
+          <select>
+            <option value="">Select</option>
+            <option>Auto Repair</option>
+            <option>Roadside Assistance</option>
+            <option>Plumbing</option>
+          </select>
+        </label>
+
+        <label>Description
+          <textarea rows="3" placeholder="Describe the issue..."></textarea>
+        </label>
+
+        <button type="submit" class="btn-primary full">Submit Request</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rhoades Plumbing & Auto. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
