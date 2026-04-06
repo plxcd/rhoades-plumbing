@@ -1,120 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rhoades-Plumbing & Auto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhoades Plumbing & Auto</title>
 
-  <link rel="stylesheet" href="styles/styles.css" />
-  <script defer src="scripts/script.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
+  <!-- TOP BANNER -->
   <div class="top-banner">
-    24/7 Plumbing • Auto Repair • Roadside Assistance
+    24/7 Emergency Plumbing & Auto Repair — Call Now!
   </div>
 
+  <!-- HEADER / NAV -->
   <header class="header">
     <div class="container nav-container">
-      <div class="logo">Rhoades</div>
+      <div class="logo">Rhoades Plumbing & Auto</div>
 
       <nav class="nav-links">
-        <a href="#hero">Home</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="plumbing.html">Plumbing</a>
+        <a href="auto.html">Auto Repair</a>
+        <a href="contact.html">Contact</a>
       </nav>
 
       <div class="mobile-toggle">
-        <span></span><span></span><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </header>
 
-  <section class="hero" id="hero">
+  <!-- HERO SECTION -->
+  <section class="hero fade-in">
     <div class="container hero-grid">
 
-      <div class="hero-text">
+      <div class="hero-text slide-up">
         <h1>Reliable Plumbing & Auto Repair Services</h1>
-        <p>Professional, affordable, and available when you need us most.</p>
-        <a href="#services" class="btn-primary">View Services</a>
+        <p>Fast, affordable, and trusted by families across Virginia. One call fixes it all.</p>
+        <a href="contact.html" class="btn-primary">Book a Service</a>
       </div>
 
-      <div class="hero-images">
-        <img src="images/mechanic-hero.jpg" alt="Mechanic working" />
-        <img src="images/plumbing.jpg" alt="Plumber fixing pipe" />
+      <div class="hero-images fade-in">
+        <img src="images/plumber-hero.jpg" alt="Plumber at work">
+        <img src="images/mechanic-hero.jpg" alt="Mechanic repairing car">
       </div>
 
     </div>
   </section>
 
-  <section class="section" id="services">
+  <!-- SERVICES SECTION -->
+  <section class="section">
     <div class="container">
-      <h2 class="section-title">Our Services</h2>
+      <h2 class="section-title slide-up">Our Services</h2>
 
       <div class="service-grid">
 
-        <div class="service-card">
-          <img src="images/auto-repair.jpg" alt="Auto repair" />
+        <div class="service-card fade-in">
+          <img src="images/plumbing.jpg" alt="Plumbing">
+          <h3>Plumbing</h3>
+          <p>Leaks, clogs, water heaters, and full system repairs.</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <img src="images/auto-repair.jpg" alt="Auto Repair">
           <h3>Auto Repair</h3>
-          <p>Engine diagnostics, brakes, tune-ups, and full-service repairs.</p>
+          <p>Diagnostics, brakes, engines, and full maintenance.</p>
         </div>
 
-        <div class="service-card">
-          <img src="images/roadside.jpg" alt="Roadside assistance" />
+        <div class="service-card fade-in">
+          <img src="images/roadside.jpg" alt="Roadside Assistance">
           <h3>Roadside Assistance</h3>
-          <p>24/7 towing, jump-starts, lockouts, and emergency support.</p>
-        </div>
-
-        <div class="service-card">
-          <img src="images/plumbing.jpg" alt="Plumbing services" />
-          <h3>Plumbing Services</h3>
-          <p>Leak repair, drain cleaning, water heaters, and more.</p>
+          <p>Jump starts, tire changes, and emergency support.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-  <section class="section contact-section" id="contact">
+  <!-- CONTACT SECTION -->
+  <section class="section">
     <div class="container contact-grid">
 
-      <div>
-        <h2 class="section-title">Request Service</h2>
-        <p>Tell us what you need and we’ll respond quickly.</p>
+      <div class="slide-up">
+        <h2 class="section-title">Get in Touch</h2>
+        <p>Call us anytime or send a message using the form.</p>
       </div>
 
-      <form class="contact-form">
-        <label>Full Name
-          <input type="text" placeholder="Your name" />
-        </label>
-
-        <label>ZIP Code
-          <input type="text" placeholder="e.g. 23510" />
-        </label>
-
-        <label>Service Needed
-          <select>
-            <option value="">Select</option>
-            <option>Auto Repair</option>
-            <option>Roadside Assistance</option>
-            <option>Plumbing</option>
-          </select>
-        </label>
-
-        <label>Description
-          <textarea rows="3" placeholder="Describe the issue..."></textarea>
-        </label>
-
-        <button type="submit" class="btn-primary full">Submit Request</button>
+      <form class="contact-form fade-in">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Phone Number">
+        <select>
+          <option>Plumbing</option>
+          <option>Auto Repair</option>
+          <option>Roadside Assistance</option>
+        </select>
+        <textarea rows="5" placeholder="Describe your issue"></textarea>
+        <button class="btn-primary full">Submit</button>
       </form>
 
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <p>© <span id="year"></span> Rhoades Plumbing & Auto. All rights reserved.</p>
+    © 2026 Rhoades Plumbing & Auto — All Rights Reserved
   </footer>
 
 </body>
 </html>
+
