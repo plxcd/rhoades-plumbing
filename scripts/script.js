@@ -29,6 +29,7 @@ if (form) {
 
     alert("Your request has been submitted!");
     form.reset();
+    console.log("Mechanic site loaded successfully.");
   });
 }
 
