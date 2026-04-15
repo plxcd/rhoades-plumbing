@@ -3,44 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services</title>
+    <title>Reliable Auto Repair | Home</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
-    <header class="small-header">
-        <h1>Our Services</h1>
-        <a href="index.html" class="btn">Back Home</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h2 class="logo">Reliable Auto Repair</h2>
+
+        <div class="mobile-toggle">☰</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Honest, Affordable Auto Repair</h1>
+        <p>Keeping your car running smoothly with trusted service.</p>
+        <a href="services.html" class="btn">View Services</a>
     </header>
 
-    <section class="services-grid">
-
-        <div class="service-card">
-            <h3>Oil Change</h3>
-            <p>Fast and affordable oil changes to keep your engine healthy.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Brake Repair</h3>
-            <p>Full brake inspections, pad replacement, and rotor resurfacing.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Engine Diagnostics</h3>
-            <p>Advanced scanning tools to identify issues quickly.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Tire Rotation</h3>
-            <p>Extend tire life and improve driving safety.</p>
-        </div>
-
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Choose Us?</h2>
+        <p>We provide reliable diagnostics, fast repairs, and fair pricing. Your car is in good hands.</p>
     </section>
 
+    <!-- Gallery -->
+    <section class="gallery">
+        <img src="images/car.jpg" alt="Car">
+        <img src="images/mechanic1.jpg" alt="Mechanic">
+        <img src="images/mechanic2.jpg" alt="Mechanic working">
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 Reliable Auto Repair</p>
+        <p>© <span id="year"></span> Reliable Auto Repair</p>
     </footer>
 
+    <script src="scripts/script.js"></script>
 </body>
 </html>
